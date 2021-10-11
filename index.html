@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <header>
-        <div class="encabezado">
-            <h5>Hospital San Blas ESE</h5>
-        </div>        
+   <div class="divConFondo">       
+       
+    <header>        
+            <h5 class="encabezado">Hospital San Blas ESE</h5>        
     </header>
     
     
@@ -19,20 +19,20 @@
         <div class="imagen">
             <img class="silla" src="img/SillaRuedas.png">
         </div>
-                
+            
         <div class="inicio" >
             <form action="">
                 <h1>Inicio de sesión</h1>
                 <p>Ingresa tus credenciales de acceso</p>
-                <input type="text" id="nombre" name="nombre">
-                <input type="password" id="contrasena" name="contrasena">
+                <input type="number" id="ID" name="ID" placeholder="Documento de identidad">
+                <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña">
                 <button>Ingresar</button>
-                <p>No tienes cuenta? <a href="http://www.mercadolibre.com">Registrate</a></p>
+                <p class="notienes">No tienes cuenta? <a href="register.html">Registrate</a></p>
 
             </form>
             
         </div>
     </div>
-
+   </div>
 </body>
 </html>

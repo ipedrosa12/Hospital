@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de paciente</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="divConFondo">
+        <nav>
+            <a href="index.html"><img src="" alt=""> Principal </a>
+            <span>/ Ingreso de Nuevo Usuario</span>
+        </nav>
+        <main class="register">
+            <header>
+                <h1>Complete la siguiente información para activar su usuario</h1>
+                <p id="adve">TODOS los campos son obligatorios *</p>
+            </header>
+            <hr class="linea">
+            
+            <div id="titulos" >
+                <span id="datos">Datos generales</span>
+                <span id="contacto">Contacto</span>
+                <span id="pss">Contraseña</span>
+            </div>
+            
+            <section id="datos-g">
+                <form action="" method="post">
+                    <div id="datos-g-nombre">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" placeholder="Nombre completo" id="name">
+                    </div>
+                    <div id="datos-g-tipo-id">
+                        <label for="tipo-id">Tipo de documento</label>
+                        <select name="tipo-id" id="tipe-id">
+                            <option value="cc">Cedula de ciudadania</option>
+                            <option value="ce">Cedula extranjera</option>
+                            <option value="re">Registro civil</option>
+                            <option value="ti">Tarjeta de identidad</option>
+                        </select>
+                    </div>
+                    <div id="datos-g-n-id">
+                        <label for="n-id">Número de documento</label>
+                        <input type="number" name="n-id" id="n-id" placeholder="Número de documento">
+                    </div>
+                    <label for="birthday">Fecha de nacimiento</label>
+                    <input type="date" name="birthday" id="birthday">
+                </form>
+            </section>
+            <footer>
+                <button>Atras</button>
+                <button>Siguiente</button>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
